@@ -1,6 +1,6 @@
 
 def answer(heights):
-    # Right off of the bat, water can't collect if there are fewer than 3 towers
+    # water can't collect if there are fewer than 3 towers
     if len(heights) < 3:
         return 0
         
