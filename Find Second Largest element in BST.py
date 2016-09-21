@@ -14,9 +14,7 @@ class BinaryTreeNode:
     def insert_right(self, value):
         self.right = BinaryTreeNode(value)
         return self.right
-    #We're doing one walk down our BST, which means O(h)O(h) time,
-    #where hh is the height of the tree (again, that's O(\lg{n})O(lgn) 
-    #if the tree is balanced, O(n)O(n) otherwise). O(1)O(1) space.
+    
     def largest(self,root_node):
         current = root_node
         while current:
