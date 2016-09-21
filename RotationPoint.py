@@ -1,3 +1,15 @@
+#Given a list of words in alphabetical order, find the word that caused the list to rotate
+# for example: 
+# words = [
+#           'yogurt',
+#           'xenon',
+#           'zebra',
+#           'zoo',
+#           'burst',   <--This word causes the list to rotate
+#           'course'
+#         ]
+
+
 def RotationPoint(words):
     '''
     Complexity: O(lg n) Time, O(1) Space
