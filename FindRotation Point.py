@@ -1,4 +1,25 @@
+#Code exercise from Interview Cake
+#  words = [
+#    'ptolemaic',
+#    'retrograde',
+#    'supplant',
+#    'undulate',
+#    'xenoepist',
+#    'asymptote', # <-- rotates here!
+#    'babka',
+#    'banoffee',
+#    'engender',
+#    'karpatka',
+#    'othellolagkage',
+#]
+
+#given a list of lexicographically ordered words find the one that made the list rotate
+
 def find_rotation_point(words):
+    '''
+    Input: list of lexicographically ordered words with a rotation word
+    Output: 
+    '''
 
     first_word = words[0]
 
